@@ -1,0 +1,109 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #f9f9f9;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0; 
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ .imgLogo{
+    width: 230px;
+    padding: 5px;
+    
+ }
+
+.menu{
+    background-color: rgb(152, 199, 199);
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    width: 30px;
+    height: 15px; 
+    border: 1px solid red;
+}
+
+.hamburguer{
+    background-color: black;  
+    width: 30px;
+    height: 3px; 
+}
+
+section{ 
+    width: 100px; 
+    height: 100vh; 
+    display: flex;
+   
+}
+  
+section .ladEsq{
+    flex: 1; 
+    background-color: #e9f0f3;
+    /* border: 1px solid red; */
+}
+section .ladEsq h1{
+    text-align: center;
+    margin-top: -3%;
+    font-size: 60px;
+}
+section .ladEsq h5{  
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50%;
+    margin-left: 90px;
+    color: red;
+}
+
+.botoes{ 
+    text-align: center; 
+}
+
+.botoes .btn{
+    margin-top: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-style: italic;
+    width: 35%;
+}
+
+.texto{
+    margin-top: 20px;
+    text-align: center; 
+}
+p{
+    font-size: 20px;
+}
+
+.midiaSociais{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 190px; 
+}
+.midiaSociais img{
+    
+}
+ 
+section .ladDir{
+    flex:1; 
+    background-image: url('../img/fotoPerfil.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-color: #e3eceed0; 
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0; 
+}
