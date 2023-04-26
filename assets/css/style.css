@@ -4,7 +4,7 @@ body{
     background-color: #f9f9f9;
 }
 
-header {
+header { 
     position: fixed;
     top: 0;
     right: 0;
@@ -43,7 +43,7 @@ section{
     display: flex;
    
 }
-  
+ 
 section .ladEsq{
     flex: 1; 
     background-color: #045273; 
@@ -58,9 +58,13 @@ section .ladEsq h1{
 section .ladEsq h5{  
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 50%;
+    margin-top: 40%;
     margin-left: 90px;
     color: #a59887;
+}
+
+.retrato{
+    display: none;
 }
 
 .botoes{ 
@@ -92,12 +96,7 @@ p{
  
  
 section .ladDir{
-    flex:1; 
-    /* background-image: url('../img/perfilClaro.png'); */
-    /* background-size: 75%; */
-    /* background-repeat: no-repeat; */
-    /* background-position: center top;  */
-    /* background-color: rgba(156, 159, 188, 0.795);  */
+    flex:1;  
     background-color: #d0cfd5; 
     
 }
@@ -106,12 +105,283 @@ section .ladDir img{
     width: 80%;
     height: 85%;
     margin-left: 60px;
-    margin-top: 100px;
+    margin-top: 93px;
 }
+
+.sobreMe{
+    border: 2px solid white;
+    box-shadow: 1px 2px 12px 2px black;
+    width: 86.5vw;
+    height: 58vh;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.sobreMe h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sobreMe p{
+    margin-left: 45px;
+    margin-right: 30px;
+    text-align: justify;
+    color: black;
+}
+
+.qualificacao{
+    background-color: #045273;
+    border: 2px solid white;
+    box-shadow: 1px 2px 12px 2px black;
+    width: 86.5vw;
+    height: 66vh;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.projeto{ 
+    display: flex;
+    width: 87vw;    
+}
+
+.qualificacao .imgProjeto{
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 100px;
+    height: 320px;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 2px 12px 2px black;
+
+}
+
+.qualificacao .imgProjeto img{
+    width: 70px;
+    margin-top: 30px;
+}
+
+
+.qualificacao p{
+    margin-top: 20px;
+    color: black;
+}
+
+.qualificacao .pTitulo{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.qualificacao .btn{
+    width: 240px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #2b7595;
+    color: white;
+    border: none;
+}
+
+.qualificacao .btn:hover{
+    background-color: #045273;
+    transition: 0.7s;
+   
+}
+ 
+.qualificacao .btnQuebra{
+    margin-top: 40px;
+}
+ 
+/* Section  Trabalho */
+.jobs{
+    display: flex;
+    border: 2px solid white;
+    box-shadow: 1px 2px 12px 2px black;
+    width: 86.5vw;
+    height: 72vh;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.jobs .tituloTrabalho{
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic; 
+}
+
+.jobs h3{
+    font-weight: bold;
+}
+
+/* aqui é o conteudo da linha */
+.jobs .col-md-4 .card{
+    /* flex: 1; */
+    background-color: white;
+    padding: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 330px;
+    height: 320px; 
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 2px 12px 2px black; 
+    background-color: #045273;
+    /* height: 340px;
+    margin-left: 10px; */
+}
+
+.jobs .col-md-4 .card img{
+    width: 150px;
+    height: 150px; 
+    margin: 0 auto;     
+    margin-top: -30px;
+     
+}
+
+.jobs .col-md-4 .card h3{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #f9f9f9;
+}
+
+.jobs .col-md-4 .card p{
+    text-align: center;
+    margin-top: 10px;
+    color: #f9f9f9;
+}
+
+.jobs .col-md-4 .card .bosch{ 
+    margin-top: -55px;
+}
+
+.jobs .col-md-4 .card .seara{
+    text-align: center;
+    margin-top: 10px;
+    color: #f9f9f9;
+}
+
+.jobs .col-md-4 .card .bosh{
+    text-align: center;
+    margin-top: -60px;
+    color: #f9f9f9;
+}
+
+.jobs .col-md-4 .card .unicamp{
+    text-align: center;
+    margin-top: 10px;
+    color: #f9f9f9;
+}
+
+ 
+.jobs .btn{
+    width: 240px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #2b7595;
+    color: white;
+    border: none;
+}
+
+.jobs .btnSeara {
+   margin: 0 auto;
+   background-color: whitesmoke;
+   color: black;
+   font-weight: bold;
+   font-style: italic;
+   margin-top: 70px;
+   
+}
+.jobs .btnBosch {
+    margin: 0 auto;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 45px;
+ }
+
+ .jobs .btn:hover{
+    background-color: #2b7595;
+    color: white;
+ }
+
+ .jobs .btnUnicamp {
+    margin: 0 auto;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 45px;
+ }
+
+
+/* termina section trabalho */
 
 footer{
     position: fixed;
     bottom: 0;
     right: 0;
     left: 0; 
+   
+}
+
+
+@media screen and (max-width: 600px){
+    section .ladDir{
+        display: none;
+    }
+ 
+    section .ladEsq h1{  
+        font-size: 30px;
+    }
+
+    .retrato{
+        display: block; 
+        margin: 0 auto;  
+        margin-top: 60px;
+        width: 200px;
+        height: 200px;
+        border: 1px solid white;
+        border-radius: 20px;
+    }
+    .fotoPerfil{
+        margin-left: 20px;
+         width: 80%;
+         height: 100%;
+    }
+
+    section .ladEsq h5{ 
+        margin: 0 auto; 
+        margin-top: -3px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        margin-left:20%;
+        font-style: italic;
+        color: rgb(183, 166, 166);
+    }
+
+    section .ladEsq .btn{
+        width: 200px;
+        margin-bottom: 8px; 
+    }
+
+    .texto p{
+        font-size: 18px;
+        margin-left: 30px; 
+    }
+
+    .midiaSociais{ 
+        display: none;
+    }
 }
